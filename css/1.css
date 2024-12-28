@@ -1,0 +1,60 @@
+.abbreviations{
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 5px solid #3a9f3e; /* Зеленая рамка */
+    border-radius: 20px; /* Скругленные углы */
+    background-color: #e6f8e5; /* Светлый фон */
+    font-size: large;
+}
+.definitions{
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 5px solid #575757; /* Зеленая рамка */
+    border-radius: 20px; /* Скругленные углы */
+    background-color: #dddddd; /* Светлый фон */
+    font-size: large;
+}
+
+#test_name{
+    font-size: 30px;
+    text-align: center;
+}
+
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #575757;
+    color: white;
+    border: none;
+    padding: 1px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#form_questions{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #4CAF50; /* Зеленая рамка */
+    border-radius: 10px; /* Скругленные углы */
+    background-color: #f0ffdf; /* Светлый фон */
+}
+button {
+    background-color: #4CAF50; /* Зеленый цвет кнопки */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Скругленные углы кнопки */
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #ccc; /* Серый цвет при наведении */
+    color: black; /* Черный текст при наведении */
+}

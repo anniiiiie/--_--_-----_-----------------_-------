@@ -1,0 +1,284 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #3a9f3e;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.navbar {
+    padding: 5px;
+    text-align: center;
+    font-family: IBM Plex Serif, serif;
+    font-size: 18px;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0 8px;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
+#video{
+    margin: auto;
+    margin-top: 5%;
+}
+.content {
+    margin-left: 20%; 
+    margin-right: 15%;
+    padding: 20px;
+    flex-grow: 1;
+    text-align: justify;
+}
+.content p{
+    text-indent: 2%;
+}
+
+.navbar {
+    padding: 5px;
+    text-align: center;
+    font-family: IBM Plex Serif, serif;
+    font-size: 18px;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0 8px;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
+.soderj{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 25%;
+}
+.soderj a{
+    color: rgb(38, 38, 38);
+    text-decoration: none;
+    margin: 1%;
+
+}
+.tab{
+    text-indent: 6%;
+}
+.tab-tab{
+    text-indent: 12%;
+}
+.sidebar {
+    width: 15%;
+    background-color: #f4f4f4;
+    white-space: nowrap; /* Предотвращает перенос строк */
+    padding: 15px;
+    position: fixed;
+    overflow-y: auto;
+    height: 100vh;
+    margin-bottom: 20px;
+    transition: left 0.5s; /* Плавный переход */
+    left: -20%; /* Скрываем меню за пределами экрана */
+}
+.sidebar.open{
+    left: 0;
+}
+.sidebar h2 {
+    font-size: 20px;
+    margin-top: 65px;
+}
+.sidebar a {
+    display: block;
+    padding: 8px;
+    color: #333;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #ddd;
+}
+.picture_caption{
+    color: #575757;
+    text-align: center;
+}
+.img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img img{
+    display: block;
+    margin: auto;
+}
+.footer{
+    background-color: #3a9f3e;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    
+}
+.footer a:hover {
+    background-color: #575757;
+}
+
+.teleportation{
+    border: 0px;
+    background-color: #3a9f3e;
+    color: white;
+    height: 2%;
+    padding: 1% 1% 1% 0%;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    font-size: medium;
+}
+.teleportation:hover{
+    background-color: #575757;
+}
+table{
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+ td{
+    border: 1px solid black;
+}
+
+.table p{
+    text-align: center;
+}
+.formula{
+    display: flex;
+    flex-direction: row;
+}
+.formula p{
+    justify-content: end;
+}
+.formula img{
+    display: block;
+    margin: auto;
+}
+
+.toggle-button {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        background-color: #575757;
+        color: white;
+        border: none;
+        padding: 1px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 55px;
+        height: 55px;
+        z-index: 100;
+}
+.spisok li{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.ibm-plex-serif-thin {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-extralight {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-light {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-regular {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-medium {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-semibold {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-bold {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ibm-plex-serif-thin-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-extralight-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-light-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-regular-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-medium-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-semibold-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .ibm-plex-serif-bold-italic {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
